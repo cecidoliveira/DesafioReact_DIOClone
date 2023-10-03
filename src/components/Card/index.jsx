@@ -9,7 +9,7 @@ function Card() {
           <img src={img} alt="imagem ilustrativa do feed" />
           <DivInfo>
             <DivAvatar>
-                <DivImgAvatar></DivImgAvatar>
+                <DivImgAvatar src="https://avatars.githubusercontent.com/u/108581198?v=4"></DivImgAvatar>
                 <DivInfoAvatar>
                     <Title>Cecidoliveira</Title>
                     <Paragraph>Há 8 minutos</Paragraph>

@@ -25,7 +25,7 @@ export const Text = styled.p`
     font-size: 1.6rem;
 `
 
-export const Button = styled.a`
+export const Button = styled.button`
     width: 15rem;
     height: 3.5rem;
     margin: auto;

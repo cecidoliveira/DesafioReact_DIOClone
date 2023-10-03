@@ -6,9 +6,9 @@ export const DivRanking = styled.div`
     padding: 0.5rem 0;
 `
 
-export const DivAvatar = styled.div`
-  width: 4rem;
-  height: 4rem;
+export const DivAvatar = styled.img`
+  width: 5rem;
+  padding: 0.3rem;
   background-color: #e5e5e5;
   border-radius: 50%;
 `;

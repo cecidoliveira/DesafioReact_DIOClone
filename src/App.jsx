@@ -8,7 +8,7 @@ import SingUpScreen from "./pages/SignUpScreen"
 export function App() {
    return <Routes>
         <Route path="/"  element = { <HomeScreen/> } />
-        <Route path="/home" element = { <LoggedScreen/> } />
+        <Route path="/feed" element = { <LoggedScreen/> } />
         <Route path="/login" element = { <SingInScreen/> } />
         <Route path="/cadastro" element = { <SingUpScreen/> } />
    </Routes>

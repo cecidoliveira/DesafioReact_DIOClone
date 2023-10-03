@@ -1,12 +1,14 @@
 
 import logo from "../../../assets/logo-dio.png"
 import { DivNavBar, DivNavUserHome, Buttons } from "../NavBarStyles";
+import { useNavigate  } from "react-router-dom";
 function NavBarHome() {
+    const navigate = useNavigate();
 
     return (
         <DivNavBar>
             <DivNavUserHome>
-                <img src={logo} alt="logo Dio" />
+                <img src={logo} alt="logo Dio"  onClick={()=> {navigate('/')}}/>
             </DivNavUserHome>
     
             <div>

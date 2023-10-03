@@ -2,8 +2,10 @@ import { FaLock } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { Button, Description, DivForm, DivInfo, DivSingIn, DivTitle, Input, Links, SombraButton, Title } from "./SignInScreenStyles";
 import NavBarHome from "../NavBar/NavBarHome"
-
 function SingInScreen() {
+
+
+
   return(
     <>
       <NavBarHome/>
@@ -29,7 +31,7 @@ function SingInScreen() {
 
           <div>
             <Links>Esqueci minha senha</Links>
-            <Links $createacess>Criar conta</Links>
+            <Links $createacess href="/cadastro">Criar conta</Links>
           </div>
         </DivInfo>
       </DivSingIn>

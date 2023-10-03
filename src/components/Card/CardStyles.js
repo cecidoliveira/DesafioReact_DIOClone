@@ -16,9 +16,9 @@ export const DivAvatar = styled.div`
     align-items: center;
 `;
 
-export const DivImgAvatar = styled.div`
-  width: 4rem;
-  height: 4rem;
+export const DivImgAvatar = styled.img`
+  width: 5rem;
+  padding: 0.3rem;
   background-color: #e5e5e5;
   border-radius: 50%;
 `;

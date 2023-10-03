@@ -66,6 +66,7 @@ export const Description = styled.p`
 
     span{
         color: ${props => props.$terms ? "#8647AD" : "#23DD7A"};
+        cursor: pointer;
     }
 `
 

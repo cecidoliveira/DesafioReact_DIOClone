@@ -25,11 +25,11 @@ export const DivSearch= styled(DivNavUserHome)`
     font-size: 1.5rem;
     gap: 0.2rem;
 `
-export const AvatarCircle = styled.div`
+export const AvatarCircle = styled.img`
     background-color: #ffffff;
-    padding: 1.9rem;
+    padding: 0.3rem;
     border-radius: 50%;
-
+    width: 5rem;
 `
 
 export const Buttons = styled.a`

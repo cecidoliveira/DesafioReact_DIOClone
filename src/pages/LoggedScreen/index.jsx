@@ -13,6 +13,8 @@ function LoggedScreen() {
                     <Title $feed>Feed</Title>
                     <Card/>
                     <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
                 <div>
                     <Title># Ranking 5 Top da semana</Title>
