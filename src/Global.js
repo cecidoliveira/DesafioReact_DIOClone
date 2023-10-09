@@ -5,9 +5,9 @@ export const Global = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Ubuntu', sans-serif;
     }
     :root{
-        font-family: 'Ubuntu', sans-serif;
         font-size: 62.5%;
     }
     :root body {

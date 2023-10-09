@@ -46,6 +46,7 @@ export const Input = styled.input`
     border-bottom: 0.2rem #3B3450 solid;
     background-color: transparent;
     color: #ffffff;
+    font-size: 1.5rem;
 
     &::placeholder {
         color: #ffffff;
@@ -70,7 +71,7 @@ export const Description = styled.p`
     }
 `
 
-export const Button = styled.button`
+export const Button = styled.input`
     width: 24rem;
     height: 3.5rem;
     margin: auto;
